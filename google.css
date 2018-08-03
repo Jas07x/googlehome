@@ -1,0 +1,31 @@
+body {
+  background-color: white;
+}
+
+ul li {
+  text-align: left;
+  display: inline-block;
+  padding-right: 3px;
+  list-style-type: none;
+  color: gray;
+  font-family: "Arial Narrow";
+  font-size: 15px;
+  margin: 0;
+}
+
+li:hover {
+  text-decoration: underline;
+}
+
+input:not([type="submit"]) {
+  border: 1.5px solid #E3E3E3;
+  border-radius: 2px;
+}
+
+input:not([type="text"]) {
+  padding: 6px;
+  margin: 11px 4px;
+  border: 1.5px solid #E3E3E3;
+  border-radius: 2px;
+  font-weight: bold;
+}
