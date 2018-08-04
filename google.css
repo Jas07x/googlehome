@@ -40,8 +40,3 @@ input:not([type="text"]) {
   padding-right: 105px;
   padding-top: 5px;
 }
-
-li img {
-  height: 20px;
-  width: 20px;
-}
