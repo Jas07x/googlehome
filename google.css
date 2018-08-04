@@ -7,9 +7,9 @@ ul li {
   display: inline-block;
   padding-right: 3px;
   list-style-type: none;
-  color: gray;
-  font-family: "Arial Narrow";
-  font-size: 15px;
+  color: rgb(34, 34, 34);
+  font-family: Arial;
+  font-size: 13px;
   margin: 0;
 }
 
@@ -28,4 +28,20 @@ input:not([type="text"]) {
   border: 1.5px solid #E3E3E3;
   border-radius: 2px;
   font-weight: bold;
+}
+
+
+.leftnavigation {
+  float: left;
+}
+
+.rightnavigation {
+  float: right;
+  padding-right: 105px;
+  padding-top: 5px;
+}
+
+li img {
+  height: 20px;
+  width: 20px;
 }
